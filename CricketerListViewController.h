@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CricketerListViewController.h
 //  CricketStoryBoard
 //
 //  Created by Admin on 26/03/14.
@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface CricketerListViewController : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
+{
+    NSArray *playerData;
+}
+
 
 @end

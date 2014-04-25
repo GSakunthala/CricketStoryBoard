@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845803BE18E3FBEB00B8659B /* PlayerDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 845803BD18E3FBEB00B8659B /* PlayerDB.sqlite */; };
+		845803C118E3FC5B00B8659B /* DatabaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845803C018E3FC5B00B8659B /* DatabaseController.m */; };
+		845803C318E3FD4400B8659B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 845803C218E3FD4400B8659B /* libsqlite3.0.dylib */; };
+		845803C518E4049900B8659B /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 845803C418E4049800B8659B /* resources.bundle */; };
 		84E22CE918E282BC00CDB144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E22CE818E282BC00CDB144 /* Foundation.framework */; };
 		84E22CEB18E282BC00CDB144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E22CEA18E282BC00CDB144 /* CoreGraphics.framework */; };
 		84E22CED18E282BC00CDB144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E22CEC18E282BC00CDB144 /* UIKit.framework */; };
@@ -14,13 +18,23 @@
 		84E22CF518E282BC00CDB144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22CF418E282BC00CDB144 /* main.m */; };
 		84E22CF918E282BC00CDB144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22CF818E282BC00CDB144 /* AppDelegate.m */; };
 		84E22CFC18E282BC00CDB144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E22CFA18E282BC00CDB144 /* Main.storyboard */; };
-		84E22CFF18E282BC00CDB144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22CFE18E282BC00CDB144 /* ViewController.m */; };
 		84E22D0118E282BC00CDB144 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D0018E282BC00CDB144 /* Images.xcassets */; };
 		84E22D0818E282BC00CDB144 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E22D0718E282BC00CDB144 /* XCTest.framework */; };
 		84E22D0918E282BC00CDB144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E22CE818E282BC00CDB144 /* Foundation.framework */; };
 		84E22D0A18E282BC00CDB144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E22CEC18E282BC00CDB144 /* UIKit.framework */; };
 		84E22D1218E282BC00CDB144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D1018E282BC00CDB144 /* InfoPlist.strings */; };
 		84E22D1418E282BC00CDB144 /* CricketStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22D1318E282BC00CDB144 /* CricketStoryBoardTests.m */; };
+		84E22D2318E2847C00CDB144 /* d1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D1D18E2847C00CDB144 /* d1.jpg */; };
+		84E22D2418E2847C00CDB144 /* d2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D1E18E2847C00CDB144 /* d2.jpg */; };
+		84E22D2518E2847C00CDB144 /* d3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D1F18E2847C00CDB144 /* d3.jpg */; };
+		84E22D2618E2847C00CDB144 /* d4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D2018E2847C00CDB144 /* d4.jpeg */; };
+		84E22D2718E2847C00CDB144 /* d5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D2118E2847C00CDB144 /* d5.jpg */; };
+		84E22D2818E2847C00CDB144 /* d6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E22D2218E2847C00CDB144 /* d6.jpg */; };
+		84E22D2D18E2893300CDB144 /* CricketerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22D2C18E2893300CDB144 /* CricketerListViewController.m */; };
+		84E22D3318E2896D00CDB144 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22D3218E2896D00CDB144 /* InfoViewController.m */; };
+		84E22D3618E28A2B00CDB144 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22D3518E28A2B00CDB144 /* ImageViewController.m */; };
+		84E22D3918E28AB500CDB144 /* CricketerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22D3818E28AB500CDB144 /* CricketerModel.m */; };
+		84E22D3C18E28D2A00CDB144 /* CricketerDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22D3B18E28D2A00CDB144 /* CricketerDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845803BD18E3FBEB00B8659B /* PlayerDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayerDB.sqlite; sourceTree = "<group>"; };
+		845803BF18E3FC5B00B8659B /* DatabaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseController.h; sourceTree = "<group>"; };
+		845803C018E3FC5B00B8659B /* DatabaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseController.m; sourceTree = "<group>"; };
+		845803C218E3FD4400B8659B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		845803C418E4049800B8659B /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
 		84E22CE518E282BC00CDB144 /* CricketStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricketStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E22CE818E282BC00CDB144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84E22CEA18E282BC00CDB144 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +64,28 @@
 		84E22CF718E282BC00CDB144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E22CF818E282BC00CDB144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84E22CFB18E282BC00CDB144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84E22CFD18E282BC00CDB144 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84E22CFE18E282BC00CDB144 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84E22D0018E282BC00CDB144 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84E22D0618E282BC00CDB144 /* CricketStoryBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketStoryBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E22D0718E282BC00CDB144 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84E22D0F18E282BC00CDB144 /* CricketStoryBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CricketStoryBoardTests-Info.plist"; sourceTree = "<group>"; };
 		84E22D1118E282BC00CDB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84E22D1318E282BC00CDB144 /* CricketStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketStoryBoardTests.m; sourceTree = "<group>"; };
+		84E22D1D18E2847C00CDB144 /* d1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d1.jpg; sourceTree = "<group>"; };
+		84E22D1E18E2847C00CDB144 /* d2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d2.jpg; sourceTree = "<group>"; };
+		84E22D1F18E2847C00CDB144 /* d3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d3.jpg; sourceTree = "<group>"; };
+		84E22D2018E2847C00CDB144 /* d4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d4.jpeg; sourceTree = "<group>"; };
+		84E22D2118E2847C00CDB144 /* d5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d5.jpg; sourceTree = "<group>"; };
+		84E22D2218E2847C00CDB144 /* d6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d6.jpg; sourceTree = "<group>"; };
+		84E22D2B18E2893300CDB144 /* CricketerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketerListViewController.h; sourceTree = "<group>"; };
+		84E22D2C18E2893300CDB144 /* CricketerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketerListViewController.m; sourceTree = "<group>"; };
+		84E22D3118E2896D00CDB144 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		84E22D3218E2896D00CDB144 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		84E22D3418E28A2B00CDB144 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		84E22D3518E28A2B00CDB144 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		84E22D3718E28AB500CDB144 /* CricketerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketerModel.h; sourceTree = "<group>"; };
+		84E22D3818E28AB500CDB144 /* CricketerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketerModel.m; sourceTree = "<group>"; };
+		84E22D3A18E28D2A00CDB144 /* CricketerDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketerDataController.h; sourceTree = "<group>"; };
+		84E22D3B18E28D2A00CDB144 /* CricketerDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketerDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845803C318E3FD4400B8659B /* libsqlite3.0.dylib in Frameworks */,
 				84E22CEB18E282BC00CDB144 /* CoreGraphics.framework in Frameworks */,
 				84E22CED18E282BC00CDB144 /* UIKit.framework in Frameworks */,
 				84E22CE918E282BC00CDB144 /* Foundation.framework in Frameworks */,
@@ -82,6 +116,18 @@
 		84E22CDC18E282BC00CDB144 = {
 			isa = PBXGroup;
 			children = (
+				84E22D3A18E28D2A00CDB144 /* CricketerDataController.h */,
+				845803C418E4049800B8659B /* resources.bundle */,
+				84E22D3B18E28D2A00CDB144 /* CricketerDataController.m */,
+				845803BD18E3FBEB00B8659B /* PlayerDB.sqlite */,
+				845803BF18E3FC5B00B8659B /* DatabaseController.h */,
+				845803C018E3FC5B00B8659B /* DatabaseController.m */,
+				84E22D2B18E2893300CDB144 /* CricketerListViewController.h */,
+				84E22D2C18E2893300CDB144 /* CricketerListViewController.m */,
+				84E22D3418E28A2B00CDB144 /* ImageViewController.h */,
+				84E22D3518E28A2B00CDB144 /* ImageViewController.m */,
+				84E22D3118E2896D00CDB144 /* InfoViewController.h */,
+				84E22D3218E2896D00CDB144 /* InfoViewController.m */,
 				84E22CEE18E282BC00CDB144 /* CricketStoryBoard */,
 				84E22D0D18E282BC00CDB144 /* CricketStoryBoardTests */,
 				84E22CE718E282BC00CDB144 /* Frameworks */,
@@ -101,6 +147,7 @@
 		84E22CE718E282BC00CDB144 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				845803C218E3FD4400B8659B /* libsqlite3.0.dylib */,
 				84E22CE818E282BC00CDB144 /* Foundation.framework */,
 				84E22CEA18E282BC00CDB144 /* CoreGraphics.framework */,
 				84E22CEC18E282BC00CDB144 /* UIKit.framework */,
@@ -114,9 +161,10 @@
 			children = (
 				84E22CF718E282BC00CDB144 /* AppDelegate.h */,
 				84E22CF818E282BC00CDB144 /* AppDelegate.m */,
+				84E22D2A18E284C800CDB144 /* img */,
 				84E22CFA18E282BC00CDB144 /* Main.storyboard */,
-				84E22CFD18E282BC00CDB144 /* ViewController.h */,
-				84E22CFE18E282BC00CDB144 /* ViewController.m */,
+				84E22D3718E28AB500CDB144 /* CricketerModel.h */,
+				84E22D3818E28AB500CDB144 /* CricketerModel.m */,
 				84E22D0018E282BC00CDB144 /* Images.xcassets */,
 				84E22CEF18E282BC00CDB144 /* Supporting Files */,
 			);
@@ -150,6 +198,19 @@
 				84E22D1018E282BC00CDB144 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E22D2A18E284C800CDB144 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				84E22D1D18E2847C00CDB144 /* d1.jpg */,
+				84E22D1E18E2847C00CDB144 /* d2.jpg */,
+				84E22D1F18E2847C00CDB144 /* d3.jpg */,
+				84E22D2018E2847C00CDB144 /* d4.jpeg */,
+				84E22D2118E2847C00CDB144 /* d5.jpg */,
+				84E22D2218E2847C00CDB144 /* d6.jpg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +289,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E22D2418E2847C00CDB144 /* d2.jpg in Resources */,
+				845803C518E4049900B8659B /* resources.bundle in Resources */,
 				84E22D0118E282BC00CDB144 /* Images.xcassets in Resources */,
+				845803BE18E3FBEB00B8659B /* PlayerDB.sqlite in Resources */,
+				84E22D2618E2847C00CDB144 /* d4.jpeg in Resources */,
 				84E22CF318E282BC00CDB144 /* InfoPlist.strings in Resources */,
+				84E22D2818E2847C00CDB144 /* d6.jpg in Resources */,
+				84E22D2318E2847C00CDB144 /* d1.jpg in Resources */,
+				84E22D2518E2847C00CDB144 /* d3.jpg in Resources */,
+				84E22D2718E2847C00CDB144 /* d5.jpg in Resources */,
 				84E22CFC18E282BC00CDB144 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E22CFF18E282BC00CDB144 /* ViewController.m in Sources */,
+				845803C118E3FC5B00B8659B /* DatabaseController.m in Sources */,
+				84E22D3618E28A2B00CDB144 /* ImageViewController.m in Sources */,
+				84E22D2D18E2893300CDB144 /* CricketerListViewController.m in Sources */,
+				84E22D3918E28AB500CDB144 /* CricketerModel.m in Sources */,
 				84E22CF918E282BC00CDB144 /* AppDelegate.m in Sources */,
+				84E22D3318E2896D00CDB144 /* InfoViewController.m in Sources */,
 				84E22CF518E282BC00CDB144 /* main.m in Sources */,
+				84E22D3C18E28D2A00CDB144 /* CricketerDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +534,7 @@
 				84E22D1918E282BC00CDB144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E22D1A18E282BC00CDB144 /* Build configuration list for PBXNativeTarget "CricketStoryBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +543,7 @@
 				84E22D1C18E282BC00CDB144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
